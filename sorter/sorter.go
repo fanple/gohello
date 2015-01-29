@@ -8,8 +8,8 @@ import "os"
 import "strconv"
 import "time"
 
-import "algorithms/bubblesort"
-import "algorithms/qsort"
+import "github.com/fanple/gohello/algorithms/bubblesort"
+import "github.com/fanple/gohello/algorithms/qsort"
 
 var infile *string = flag.String("i","infile","File contains values for sorting")
 var outfile *string = flag.String("o","outfile","File to receive sorted values")
